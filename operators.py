@@ -49,3 +49,34 @@ while True:
         case 7:
             print(f"Result: {num1} ^ {num2} = {num1 ** num2}")
 
+
+
+# Assignment Operators: (+=, -=, *=, /=, %=, //=, **=)
+
+
+a=20
+#a+=a
+#print(a)
+a+=40
+print(a)
+a+=60
+print(a)
+
+
+# Comparison operators: (==, !=, >, <, >=, <=)
+#logical operators: (and, or, not)
+
+# given task handle both operators 
+
+age =int(input('Enter your age: '))
+
+if age>=18 and age<=30:
+    print("you are in matureage")
+elif age<18 and age>10:
+    print("you are in teenage")
+elif age<=10 and age>0:
+    print("you are in childhood")
+else:
+    print("you are in senior age")
+
+
