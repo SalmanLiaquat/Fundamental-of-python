@@ -11,3 +11,5 @@
 3.spaces b/w the name
 
 '''
+
+myName='Salman'
