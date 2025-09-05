@@ -4,7 +4,7 @@
 #if-elif-else
 
 # task 1:
-'''
+
 a =15 
 if a>10:
     print(f"Task A is assigned")
@@ -38,13 +38,13 @@ while True:
     print(f'In {money} rupees i will buy cone icecream')
 
 
-'''
+
 
 # Some Question related to conditional statement
 
 
 # q1: Accept two number and tell the greater number
-'''
+
 n1=int(input("Enter 1st Number:"))
 n2=int(input("Enter 2nd Number:"))
 if n1>n2:
@@ -54,10 +54,10 @@ elif n1==n2:
 else:
     print(f"{n2} is greater then {n1}")
 
-'''
+
 
 # q2: Accept the gendar from the user as a char and message good morning sir(on the basis of gender)
-'''
+
 gender = input("Enter For Male (M) and For Female (F):")
 
 if gender =='M' or gender == 'm':
@@ -67,21 +67,21 @@ elif gender =='F' or gender == 'f':
 else:
     print("You are not male and female")
 
-'''
+
 
 #q3: Accept the Integer and tell it even or odd
 
-'''
+
 number =int(input('Enter the Number:- '))
 if number %2 ==0:
     print(f"{number} is Even Number")
 else:
     print(f"{number} is Odd Number")
 
-'''
+
 
 #q4: Accept the nme and age from the user and tell him he i s a  eligible for not
-'''
+
 name =input("Enter Your Name:")
 age =int(input("Enter Your Age:"))
 if age >=18:
@@ -89,11 +89,11 @@ if age >=18:
 else:
     print(f"{name}, you are not eligible because of under 18 years")
 
-'''
+
 
 #q5:Accept a year and check if it is leap year or not
 #leap year: divisible by 4 and not divisible by 100 center year:(2000,3000) divisible by 400
-'''
+
 year =int(input("Enter the Year:"))
 
 if year %100==0 and year%400 ==0:
@@ -103,7 +103,7 @@ elif year %4==0 and year%100 !=0:
 else:
     print(f"{year} is not a leap year")
 
-'''
+
 
 #Q5 temperature check
 
