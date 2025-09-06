@@ -1,23 +1,23 @@
 # question 1: Accept integer from input and print hello wold in time
 
-'''
+
 n= int(input("Enter the number to print n time `hello!world`: "))
 for i in range(1,n+1,1):
     print("Hello!World")
 
-'''
+
 
 # question 2: Print Natural Number to n times
-'''
+
 n=int(input("Enter the number: "))
 
 for i in range (1,n+1):
     print(i)
 
-'''
+
 
 # Question 3: Sum up to n terms
-'''
+
 n=int(input("Enter the number: "))
 sum = 0
 for i in range(1,n+1):
@@ -25,11 +25,11 @@ for i in range(1,n+1):
 
 print(sum)
    
-'''
+
 
 # Question 4: Accrpt a number and check is it is a perfect number or not
 # whose sum of factors is equal to iself a number and is called perfect number
-'''
+
 n = int(input("Enter the number: "))
 sum = 0
 
@@ -42,10 +42,10 @@ if sum == n:
 else:
     print(f"{n} is not a perfect number ")
 
-'''
+
 
 #Question 5: Factorial of the number
-'''
+
 
 n = int(input("Enter the number: "))
 fact = 1
@@ -55,10 +55,10 @@ for i in range(1,n+1):
 
 print(f"The factorial of {n} is {fact}")
 
-'''
+
 
 #Question 5: print sum of all even and odd number in range
-'''
+
 n = int(input("Enter the number: "))
 even_sum=0
 odd_sum=0
@@ -71,21 +71,21 @@ for i  in range(1,n+1):
 print(f"The Even_sum: {even_sum}")
 print(f"The odd_sum: {odd_sum}")
 
-'''
+
 
 #Question 6: print all the factor of the number
-'''
+
 n = int(input("Enter the number: "))
 for i in range(1,n+1):
     if n%i ==0:
      print(i)
 
-'''
+
 
 # Question 7 check weather the number is prime or not
 # {2,3,5,7,11...}
 
-'''
+
 n = int(input("Enter the number: "))
 
 if n<=1:
@@ -99,8 +99,8 @@ else:
         print("It is a prime number")
 
 
-'''
-'''
+
+
 num = int(input("Enter the number: "))
 if num<2:
     print("It is not a prime number")
@@ -114,19 +114,19 @@ else:
     else:
         print(i)  #output:2,3,5,7
 
-'''
+
 
 # Question8: Reverse the string
 
-'''
+
 name =input("Enter the name:")
 for i in range(len(name),0,-1):
     print(name[i-1],end="")
 
-'''
+
 
 #Question 9 : count alphabet, digit, special charters in the string
-'''
+
 st = "2324str@#$"
 alpha=0
 digit = 0
@@ -142,7 +142,7 @@ for i in st:
 print(f"Alphabet: {alpha}")
 print(f"Digit: {digit}")
 print(f"Special Charater: {special_charater}")
-'''
+
 # Question 10: Find the same (repeated) numbers in the string
 
 number = '232434565'
