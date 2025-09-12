@@ -144,7 +144,7 @@ print(f"Digit: {digit}")
 print(f"Special Charater: {special_charater}")
 
 # Question 10: Find the same (repeated) numbers in the string
-
+'''
 number = '232434565'
 count = 1
 
@@ -154,4 +154,27 @@ for i in range(len(number)):
             print(number[i],end=" ")
             break
 
+<<<<<<< HEAD
            
+=======
+
+            
+'''
+
+
+#Print A in loop
+#  
+
+n=5
+for i in range(1, n + 1):
+    # spaces before stars
+    for j in range(n - i):
+        print(" ", end="")
+    # stars and inner spaces
+    for k in range(2 * i - 1):
+        if k == 0 or k == 2 * i - 2 or i==3:  # first or last star
+            print("*", end="")
+        else:
+            print(" ", end="")
+    print()
+>>>>>>> dcbf888 (Add loop-question file)
