@@ -1,6 +1,6 @@
 # question 1: Accept integer from input and print hello wold in time
 
-
+'''
 n= int(input("Enter the number to print n time `hello!world`: "))
 for i in range(1,n+1,1):
     print("Hello!World")
@@ -144,7 +144,7 @@ print(f"Digit: {digit}")
 print(f"Special Charater: {special_charater}")
 
 # Question 10: Find the same (repeated) numbers in the string
-'''
+
 number = '232434565'
 count = 1
 
@@ -154,9 +154,9 @@ for i in range(len(number)):
             print(number[i],end=" ")
             break
 
-<<<<<<< HEAD
-           
-=======
+
+         
+
 
             
 '''
@@ -164,7 +164,7 @@ for i in range(len(number)):
 
 #Print A in loop
 #  
-
+'''
 n=5
 for i in range(1, n + 1):
     # spaces before stars
@@ -177,4 +177,21 @@ for i in range(1, n + 1):
         else:
             print(" ", end="")
     print()
->>>>>>> dcbf888 (Add loop-question file)
+
+'''
+
+# print D
+
+row = 5
+col=3
+for i in range (0 ,row):
+    for j in range(0,col):
+        if j==0:
+         print("*",end=" ")
+        elif (i==0 or i==row-1) and j<col-1:
+           print("*",end=" ")
+        elif j==col-1 and (i != 0 and i != row-1):
+            print("*",end=" ")
+        else:
+            print(" ",end=" ")
+    print()
