@@ -21,4 +21,5 @@ print(f"The maximum number is {max}")
 # Append
 
 a = [23,56,48,78]
+a.append(45)
 print(a)
