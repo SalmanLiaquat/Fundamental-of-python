@@ -17,3 +17,8 @@ print(f"The maximum number is {max}")
 '''
 
 #Methode
+
+# Append
+
+a = [23,56,48,78]
+print(a)
