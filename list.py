@@ -57,7 +57,7 @@ print(index)
 '''
 
 # Reseverse
-
+'''
 n =[1,2,2,3,4,5,6]
 n.reverse()
 print(n)
@@ -68,3 +68,20 @@ print(n)
 #count
 count= n.count(2)
 print(count)
+'''
+# Assignment Task
+'''
+After flipping a coin 10 times you got this result,
+result = ["heads","tails","tails","heads","tails","heads","heads","tails","tails","tails"]
+Using for loop figure out how many times you got heads
+
+'''
+
+coin =['head','tail','head','head','head','tail']
+count = 0
+print(len(coin))
+for i in range(0,len(coin)-1):
+   if coin[i] == 'head':
+      count += 1
+
+print(f"Total time head come : {count}")
