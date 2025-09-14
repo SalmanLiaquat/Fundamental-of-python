@@ -76,12 +76,47 @@ result = ["heads","tails","tails","heads","tails","heads","heads","tails","tails
 Using for loop figure out how many times you got heads
 
 '''
-
+'''
 coin =['head','tail','head','head','head','tail']
 count = 0
-print(len(coin))
+
 for i in range(0,len(coin)-1):
    if coin[i] == 'head':
       count += 1
 
 print(f"Total time head come : {count}")
+'''
+
+# print positive nad negative number in list
+'''
+arr = [0,-2,5,-1,-6,7,-8]
+positive=[]
+negative =[]
+for i in range(0,len(arr)):
+   if arr[i]>=0:
+      positive.append(arr[i])
+   else:
+      negative.append(arr[i])
+
+print(f'Positive: {positive}')
+print(f'Negative: {negative}')
+
+'''
+
+
+# Mean of the list element
+'''
+li = [1,7,3,2,-5]
+add =0
+for i in li:
+   add+=i
+result =add/len(li)
+print(f"Mean: {result}  ")
+
+'''
+
+# find the second greatest element in the list
+
+li = [1,7,3,2,-5]
+li.sort()
+print(li[-2])
