@@ -1,6 +1,6 @@
 # List → a collection of items
 '''
-→ mutaqbl
+→ mutable
 → duplicate
 → hetergenous
 → ordered
