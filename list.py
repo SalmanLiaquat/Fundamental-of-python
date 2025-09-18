@@ -137,7 +137,7 @@ print(f"First largest: {f_largest}")
 print(f"Second largest: {sec_largest}")
 '''
 # check if the list is sorted or not
-
+'''
 n =[1,2,3,4,5,6]
 sor = True
 for i in range(len(n)-1):
@@ -149,3 +149,14 @@ if sor == True:
    print("The list is sorted")
 else:
    print("The list is not sorted")
+'''
+
+# Given an list of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+
+n =[2,11,7,15]
+target =9
+
+for i in range(len(n)-1):
+   for j in range(i+1,len(n)):
+      if n[i]+n[j]==target:
+         print(f"Index of {n[i]} and {n[j]} is {i} and {j}")
