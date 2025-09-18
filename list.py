@@ -116,7 +116,36 @@ print(f"Mean: {result}  ")
 '''
 
 # find the second greatest element in the list
-
+'''
 li = [1,7,3,2,-5]
 li.sort()
 print(li[-2])
+'''
+
+'''
+n = [1,2,53,67,24,78,65,70]
+f_largest =n[0]
+sec_largest =n[0]
+for i in range(1,len(n)):
+   if n[i]>f_largest:
+      sec_largest=f_largest
+      f_largest = n[i]
+   elif n[i] > sec_largest:
+      sec_largest = n[i]
+
+print(f"First largest: {f_largest}")
+print(f"Second largest: {sec_largest}")
+'''
+# check if the list is sorted or not
+
+n =[1,2,3,4,5,6]
+sor = True
+for i in range(len(n)-1):
+   if n[i]>n[i+1]:
+         sor = False
+         break
+
+if sor == True:
+   print("The list is sorted")
+else:
+   print("The list is not sorted")
