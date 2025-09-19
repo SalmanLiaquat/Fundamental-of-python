@@ -11,7 +11,8 @@ f.close
 
 # write w→ write
 # append a→ append
-
+'''
 f =open("superman.txt",'a')
 f.write("\nI am workng as an AI  engineer")
 f.close
+'''
